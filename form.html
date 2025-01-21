@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/form.png">
+    <style>
+        body{
+  background-image: url("assets/back.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+        }
+    </style>
+
+</head>
+<body>
+<form action="">
+
+    <legend>CREATE AN ACCOUNT WITH INSTAMART</legend>
+    <br><br>
+
+
+    <label for="fname">First name :</label>
+    <input type="text" id="fname" placeholder="Enter firstname e.g Ojijo" required="required">
+    <br><br>
+
+
+    <label for="sname">Surname :</label>
+    <input type="text" id="sname" placeholder="Enter surname" requred="required">
+    <br><br>
+
+      <label for="email">Email Adddress :</label>
+    <input type="email" id="email" placeholder="abc@gmail.com" required="required">
+    <br><br>
+
+
+  <label for="pwd">Password :</label>
+    <input type="password" id="pwd" placeholder="Type password" requred="required">
+    <br><br>
+
+  <label for="age">Enter your age :</label>
+    <input type="number" id="age"  requred="required">
+    <br><br>
+
+
+
+  <label for="phone">Contact:</label>
+    <input type="tel" id="phone" placeholder="e.g 0799999999" requred="required">
+    <br><br>
+
+    <label for="file">Upload File</label>
+    <input type="file" id="file" required="required">
+    <br><br>
+
+
+    <label for="yob">Birthday :</label>
+    <input type="date" id="yob" required="required">
+    <br><br>
+
+    <label for="yos">Select year of study</label>
+
+    <select name="" id="yos">
+        <option value="" disabled="disabled">choose one</option>
+        <option value="year one">First year</option>
+        <option value="year two">Second year</option>
+        <option value="year three">Third year</option>
+        <option value="year four">Fourth year</option>
+
+    </select>
+    <br><br>
+
+
+    <p>Choose your favourite football team :</p>
+
+    <input type="radio" id="arsenal" name="team">
+    <label for="arsenal">Arsenal</label> <br>
+
+ <input type="radio" id="chelsea" name="team">
+    <label for="Chelsea">Chelseaa</label> <br>
+
+
+     <input type="radio" id="manu" name="team">
+    <label for="manu">ManU</label> <br><br>
+    
+    <p>Choose programming languages</p>
+    <input type="checkbox" id="python" name="python">
+    <label for="python">Python</label><br><br>
+
+    <input type="checkbox" id="java" name="javascript">
+    <label for="java">Java script</label><br><br>
+
+    <input type="checkbox" id="php" name="php">
+    <label for="php">PHP</label><br><br>
+
+    <label for="message">Describe yourself</label><br><br>
+    <textarea name="" id="message" cols="40" rows="5" placeholder="type here..."></textarea><br><br>
+
+    <button type="submit">Register</button>
+
+</form>
+</body>
+</html>
